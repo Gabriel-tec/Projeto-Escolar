@@ -1,0 +1,91 @@
+Body{
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.2rem;
+}
+.Cabeçalho{
+    background: rgb(4, 194, 252);
+    color: white;
+    width: 100%;
+    text-align: center;
+    height: 70px;
+}
+.Cabeçalho h1{
+    font-family: sans-serif;
+    padding: 10px;
+    margin: 0px;
+    text-shadow: 1px 1px 1px black;
+}
+.Corpo{
+    width: 100%;
+    height: 564px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 1 1 400px;
+}
+@media(max-width: 1200px){
+    .Corpo{
+        height: 800px;
+    }
+}
+.Texto{
+    margin: 0px;
+    font-size: 1.3rem;
+    width: 40%;
+    font-family:inherit ;
+}
+@media(max-width: 1200px){
+    .Texto{
+        width: 100%;
+    }
+}
+.Texto h2{
+    text-align: center;
+    font-size: 1.7rem;
+    color: rgb(53, 15, 1);
+}
+.Formulário{
+    width: 40%;
+}
+.Formulário p{
+    font-size: 30px;
+
+}
+.Formulário input{
+    padding: 5px;
+    width: 100%;
+}
+.Formulário button{
+    border: none;
+    background: #252323;
+    width: 60%;
+    height: 40px;
+    color: white;
+    font-size: 1.4rem;
+    margin-left: 20%;
+}
+.Formulário button:hover{
+    transition: 0.3s;
+    background: #1b1b1b;
+    color: gray;
+}
+.Formulário main{
+    box-shadow: 1px 1px 1px  1px rgba(0, 0, 0, 0.205);
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    margin: 10px;
+}
+.Rodapé{
+    background: rgb(3, 3, 73);
+    color: white;
+    height: 60px;
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+.Rodapé p{
+    margin: 0px;
+    padding: 10px;
+}
