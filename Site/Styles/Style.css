@@ -77,6 +77,12 @@ Body{
     padding: 20px;
     margin: 10px;
 }
+@media(max-width: 1200px){
+    .Formulário main{
+        width: 350px;
+    }
+
+}
 .Rodapé{
     background: rgb(3, 3, 73);
     color: white;
